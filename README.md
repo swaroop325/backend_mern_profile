@@ -1,36 +1,35 @@
 # Backend module of MERN App
-Frontend module designed by neomorphic design principle 
+
+Backend module for frontend module
 
 ## Tech details:
-
 Hosted in heroku
 
-```
-
-```
-### [LIVE API URL ➫](https://mern-frontend-ce9a8.web.app)
-
+### [LIVE API URL ➫](https://mern-swaroop325.herokuapp.com/)
 ### Project Structure
 
-	├── build	# Build files 
-	|
-	├── public	            # Static files
-    |   
-    └── src		           			 # Main Source Code
-	    ├── api 	        		 # Api details
-		├── images 	       			 # image assets
-		├── reusableComponents 	     # resusable components
-	    └── components      		 # components
-
+    ├── Procfile	# heroku file
+    ├── .env	    # Env variables are stored her for local setup
+    |
+    └── src		           	     
+        ├── controllers 	     # api response 
+    	├── middlewares 	     # middleware files
+        ├── models 	             # schema files  			 
+    	├── routes 	             # api routes
+        └── server.js      		 # main filer where the server is written
 
 ### Dependencies:
 
 ```
 node dependancies
 ```
-- [react-router-dom]
-- [react-router-dom] 
-- [wow.js]
-- [formik]
-- [react-loader-spinner]
- 
+
+- [bcrypt]
+- [cors]
+- [datauri]
+- [express]
+- [express-validator]
+- [jsonwebtoken]
+- [mongoose]
+- [passport]
+- [passport-jwt]
