@@ -7,7 +7,7 @@ const passport = require("passport");
 const path = require("path");
 
 const connUri = process.env.MONGO_LOCAL_CONN_URL;
-let PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 8000;
 
 const app = express();
 
